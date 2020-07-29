@@ -22,3 +22,32 @@ export const requestIndex =()=>{
         url:"/api/4/stories/latest",
     })
 }
+
+//以前的信息
+export const requestBefore =(data)=>{
+    return axios({
+        url:"/api/4/stories/before/"+data,
+    })
+}
+
+
+//详情信息
+export const requestDetail =(id)=>{
+    return axios({
+        url:"/api/4/story/"+id,
+    })
+}
+
+//文章长评
+export const requestLongComments =(id)=>{
+    return axios({
+        url:"/api/4/story/"+id+"/long-comments",
+    })
+}
+
+//文章短评
+export const requestShortComments =(id)=>{
+    return axios({
+        url:"/api/4/story/"+id+"/short-comments",
+    })
+}

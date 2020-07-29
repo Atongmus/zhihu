@@ -1,0 +1,104 @@
+@import "../../stylus/index.styl";
+.comments{
+    background-color:$backc;
+}
+header{
+     height:1rem;
+}
+.header{
+    z-index:100;
+    width: 100vw;
+    background-color: $primery;
+    position: fixed;
+    color: $white;
+    height:1rem;
+    line-height:1rem;
+    left:0;
+    top: 0;
+}
+.comments-header-left{
+    float: left;
+   
+}
+.comments-header-left>span{
+    margin-left: .5rem;
+    font-size: .5rem;
+}
+
+.comments .comments-header-size{
+    font-size: .5rem;
+}
+.comments-header-right{
+    float: right;
+}
+.comments-header-right>span{
+    margin-right:.5rem;
+}
+
+
+
+.comments-con .my-list{
+    width 100%
+}
+.comments-con .my-list .list-box{
+    padding .1rem 0
+    display flex 
+    justify-content:space-between
+}
+.comments-con .my-list .list-box .list-con{
+    width 65%
+}
+.am-list-item .am-list-line .am-list-content{
+    white-space:initial !important;
+}
+
+.comments-con .my-list .list-box .list-img{
+    width 1rem
+    height 1rem
+    border-radius 50%
+    overflow hidden
+    text-align center
+    line-height 1rem
+}
+.comments-con .my-list .list-box .list-img>img{
+    width 100%
+    height 100%
+}
+
+.comments-con .my-list .list-box .list-con .list-con-name{
+     color $pinglunname
+     font-size $siz3
+     font-weight bold
+}
+.comments-con .my-list .list-box .list-con .list-con-neirong{
+    font-size $siz3
+    color $pingluncon
+}
+.comments-con .my-list .list-box .list-con .list-con-time{
+    color $pingluntime
+    padding-top .1rem
+}
+.comments-con .my-list .list-box .list-dianzan .icon-dianzan{
+    color $pingluntime
+    font-size $siz3
+    padding-right .1rem
+}
+.comments-con .my-list .list-box .list-dianzan .dianzan-num{
+    color $pingluntime
+    font-size $siz3
+}
+.comments-con .nolist{
+    text-align center
+    height 10rem
+    line-height 10rem
+}
+
+.comments-con .nolist .icon-shafa{
+    font-size 2.5rem
+    color #e4e4e4
+}
+.comments-con .nolist .nolist-font{
+    font-size .5rem
+    color #e4e4e4
+    margin-top -9rem !important
+}
