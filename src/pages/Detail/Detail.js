@@ -88,7 +88,7 @@ class Detail extends Component {
                         </div>
                         <div className="detail-header-right">
                             <span className="iconfont icon-fenxiang detail-header-size" onClick={() => this.showFenxiang()}></span>
-                            {isCollect ? <span className="iconfont icon-shoucang2 detail-header-size cancel" onClick={() => this.toCancelClick("取消成功", detail.id)}></span> : <span className="iconfont icon-shoucang2 detail-header-size" onClick={() => this.toCollectClick("收藏成功", detail)}></span>}
+                            {isCollect ? <span className="iconfont icon-shoucang2 detail-header-size cancel" onClick={() => this.toCancelClick("取消成功!", detail.id)}></span> : <span className="iconfont icon-shoucang2 detail-header-size" onClick={() => this.toCollectClick("收藏成功!", detail)}></span>}
                             <span className="iconfont icon-pinglun1 detail-header-size" onClick={() => this.toComment(detail.id)}></span>
                             <span className="detail-num">{this.state.commentsnum1+this.state.commentsnum2}</span>
                             {
